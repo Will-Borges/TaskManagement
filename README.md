@@ -248,15 +248,18 @@ ___
 <br>
 
 ## Como Usar
+1. Suba os containers no docker
+    1.1 Na raiz do projeto onde esta localizado o arquivo ***Dockerfile*** abra o ***CMD*** e execute o comando ***docker compose build***
+    1.2 Execute o comando ***docker compose up***
 
-1. Crie um user - Enpoint CreateUser
-2. Faça a autenticação - Enpoint Authenticate
-3. Utilize o token para realizar o acesso as funcionalidades
-4. Crie um produto que sera adicionado no stock - Endpoint CreateCarProduct
-5. Busque o estoque para pegar o Id do item - Endpoint GetStock
-6. Atualize o item do estoque, adicionando a quantidade que tem no estoque, passando o Id do item (5) - Endpoint UpdateItemStock
-7. Crie um pedido, passando o Id do item que deseja comprar e a quantidade - Endpoint CreateOrder
-8. Confirme o pedido, passando o Id do pedido que veio ao criar ele (7) - Endpoint ConfirmOrder
+2. Execute os scripts das tabelas no container do docker via terminal
+   2.1 Na raiz do projeto onde esta localizado o arquivo ***Dockerfile*** abra o ***CMD*** e execute o comando ***docker exec -it eclipseworkstaskmanagement-postgres-1 psql -U postgres -d eclipseworks*** 
+   2.2 Execute os scripts encontrados na pasta ***Scripts*** localizada na raiz (copiando e colando)  
+   
+3. Crie um projeto para gerenciar suas tarefas, vinculando o criador no userId - Endpoint CreateProject
+4. Adicione as tarefas vinculando o id retornado na criação do projeto - Endpoint CreateTask
+5. Após esses passos conseguimos utilizar todos os endpoints restantes no projeto para organizar nossas tarefas da equipe.
+
 
 ## Contribuições
 
