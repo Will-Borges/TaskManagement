@@ -249,7 +249,7 @@ ___
 
 ## Como Usar
 1. Suba os containers no docker
-    - 1.1 Na raiz do projeto onde esta localizado o arquivo ***Dockerfile*** abra o ***CMD*** e execute o comando ***docker compose build***
+    1.1 Na raiz do projeto onde esta localizado o arquivo ***Dockerfile*** abra o ***CMD*** e execute o comando ***docker compose build***
     1.2 Execute o comando ***docker compose up***
 
 2. Execute os scripts das tabelas no container do docker via terminal
