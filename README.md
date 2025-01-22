@@ -1,25 +1,40 @@
 # TaskManagerAPI
 Este projeto é uma API RESTful para gerenciamento de tarefas, projetos e usuários, com foco na organização e produtividade das equipes.
-<br>
-<br>
-   
-## Visão Geral
 
+<br>
+<br>
+## Visão Geral
 O sistema visa facilitar a organização e o monitoramento das tarefas diárias de uma equipe. Ele permite criar projetos, adicionar e gerenciar tarefas, além de controlar o progresso dessas tarefas com funcionalidades de atualização e remoção.
 
+<br>
+<br>
 ## Detalhes do Sistema
 
+<br>
 ### Usuário
 O usuário é a pessoa que acessa e utiliza o sistema, possuindo uma conta com permissões para interagir com projetos e tarefas.
 
+<br>
+<br>
 ### Projeto
 Um projeto é uma unidade que contém várias tarefas. Usuários podem criar, visualizar e gerenciar projetos.
 
+<br>
+<br>
 ### Tarefa
 A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
 
+<br>
+<br>
+### Historico de Tarefa
+O histórico de tarefas é a unidade responsável por armazenar toda e qualquer alteração realizada pelo usuário nas tarefas.
+
+<br>
+<br>
+<br>
 # Endpoints Entidade Projeto
 
+<br>
 ### **CreateProject** 
 Método: POST  
 URL: /v1/Project/create-project  
@@ -32,6 +47,7 @@ Descrição: Responsavel por criar o projeto.
 }
 ```
 
+
 ## Response
 ```json
 {
@@ -42,6 +58,7 @@ Descrição: Responsavel por criar o projeto.
 ```
 ___
 
+<br>
 ### **ListProjectsByUserId** 
 Método: GET  
 URL: /v1/Project/list-projects-userId?userId=1
@@ -89,6 +106,7 @@ Descrição: Responsavel por listar os projetos filtrando pelo id do usuário.
 ```
 ___
 
+<br>
 ### **DeleteProject** 
 Método: DELETE  
 URL: /v1/Project/remove-project?projectId=1
@@ -100,7 +118,9 @@ Descrição: Responsavel por deletar o projetos filtrando pelo id do projeto.
     "succesfullyDelete": true
 }
 ```
-
+<br>
+<br>
+<br>
 # Endpoints Entidade Task
 
 ### **CreateTask** 
@@ -127,10 +147,12 @@ Descrição: Responsavel por criar uma tarefa.
 ```
 ___
 
+<br>
 ### **UpdateTask** 
 Método: PUT  
 URL: /update-task
 Descrição: Responsavel por atualizar uma tarefa, se baseando pelo id.
+
 ```json
 {
     "id": 1,
@@ -150,7 +172,7 @@ Descrição: Responsavel por atualizar uma tarefa, se baseando pelo id.
 ```
 
 ___
-
+<br>
 ### **ListTasksByProjectId** 
 Método: GET  
 URL: /seach-tasks-by-projectId?projectId=3
@@ -171,6 +193,7 @@ Descrição: Responsavel por listar todas as tarefas filtrando pelo project id.
 ```
 ___
 
+<br>
 ### **DeleteTask** 
 Método: DELETE  
 URL: /remove-task?taskId=8
@@ -183,6 +206,9 @@ Descrição: Responsavel por deletar a tarefa filtrando pelo id.
 }
 ```
 
+<br>
+<br>
+<br>
 # Endpoints Entidade TaskHistory
 
 ### **SearchAllTaskHistories** 
