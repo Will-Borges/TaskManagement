@@ -1,0 +1,15 @@
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\bin\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.deps.json
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\bin\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\bin\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.csproj.AssemblyReference.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.AssemblyInfoInputs.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.AssemblyInfo.cs
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.csproj.CoreCompileInputs.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipsew.C175D2AB.Up2Date
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\refint\Eclipseworks.TaskManagement.Infraestruture.Persistence.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Infraestruture.Persistence\obj\Debug\net8.0\ref\Eclipseworks.TaskManagement.Infraestruture.Persistence.dll

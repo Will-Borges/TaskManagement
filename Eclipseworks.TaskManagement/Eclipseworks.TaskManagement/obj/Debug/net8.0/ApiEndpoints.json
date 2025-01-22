@@ -1,0 +1,124 @@
+[
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.TaskController.TaskController",
+    "Method": "CreateTask",
+    "RelativePath": "create-task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Eclipseworks.TaskManagement.Core.Application.Services.Tasks.Base.Create.Requests.CreateTaskRequestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.TaskController.TaskController",
+    "Method": "RemoveTask",
+    "RelativePath": "remove-task",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.Performances.TaskHistoryController",
+    "Method": "SeachTasksByProjectId",
+    "RelativePath": "seach-all-tasks-histories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.TaskController.TaskController",
+    "Method": "SeachTasksByProjectId",
+    "RelativePath": "seach-tasks-by-projectId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.TaskController.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "update-task",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Eclipseworks.TaskManagement.Core.Application.Services.Tasks.Base.Update.Requests.UpdateTaskRequestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.Projects.ProjectController",
+    "Method": "CreateProject",
+    "RelativePath": "v1/Project/create-project",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Eclipseworks.TaskManagement.Core.Application.Services.Projects.Base.Create.Requests.CreateProjectRequestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.Projects.ProjectController",
+    "Method": "SearchProjectsByUserId",
+    "RelativePath": "v1/Project/list-projects-userId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eclipseworks.TaskManagement.Controllers.Projects.ProjectController",
+    "Method": "RemoveProject",
+    "RelativePath": "v1/Project/remove-project",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

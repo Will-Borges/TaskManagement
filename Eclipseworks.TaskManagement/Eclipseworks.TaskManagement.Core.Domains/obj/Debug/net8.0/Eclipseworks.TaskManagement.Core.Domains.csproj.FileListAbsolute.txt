@@ -1,0 +1,12 @@
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.deps.json
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.csproj.AssemblyReference.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.AssemblyInfoInputs.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.AssemblyInfo.cs
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.csproj.CoreCompileInputs.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\refint\Eclipseworks.TaskManagement.Core.Domains.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Domains\obj\Debug\net8.0\ref\Eclipseworks.TaskManagement.Core.Domains.dll

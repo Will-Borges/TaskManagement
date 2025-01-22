@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c40615e0-3faf-4b28-912e-54285b95e2a1</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eclipseworks.TaskManagement.Core.Application\Eclipseworks.TaskManagement.Core.Application.csproj" />
+    <ProjectReference Include="..\Eclipseworks.TaskManagement.Core.Domains\Eclipseworks.TaskManagement.Core.Domains.csproj" />
+    <ProjectReference Include="..\Eclipseworks.TaskManagement.Infraestruture.Persistence\Eclipseworks.TaskManagement.Infraestruture.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

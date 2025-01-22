@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclipseworks.TaskManagement", "Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.csproj", "{39DE15D8-7A7B-43B8-A476-DB630019FFA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ports", "Ports", "{146BD602-0E18-411B-88D7-3001CC9192DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastruture", "Infrastruture", "{9AD13F3E-020D-4A5E-A809-6094F0804631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D28D1580-F7F5-421D-99E6-FB528CD07840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DFF95565-A9FF-49A6-85EF-51F24277AF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclipseworks.TaskManagement.Core.Domains", "Eclipseworks.TaskManagement.Core.Domains\Eclipseworks.TaskManagement.Core.Domains.csproj", "{7D221E0E-AC2F-482F-A2B7-9F2980DBD0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclipseworks.TaskManagement.Core.Application", "Eclipseworks.TaskManagement.Core.Application\Eclipseworks.TaskManagement.Core.Application.csproj", "{261B3F1E-E75A-4F06-91DF-79BC8D197C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclipseworks.TaskManagement.Infraestruture.Persistence", "Eclipseworks.TaskManagement.Infraestruture.Persistence\Eclipseworks.TaskManagement.Infraestruture.Persistence.csproj", "{36C47BEF-540A-46D9-87A5-A76740E47EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclipseworks.TaskManagement.Tests", "Eclipseworks.TaskManagement.Tests\Eclipseworks.TaskManagement.Tests.csproj", "{67BFE148-2E8F-4A2B-ACBE-C8760F10CEBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39DE15D8-7A7B-43B8-A476-DB630019FFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DE15D8-7A7B-43B8-A476-DB630019FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DE15D8-7A7B-43B8-A476-DB630019FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DE15D8-7A7B-43B8-A476-DB630019FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D221E0E-AC2F-482F-A2B7-9F2980DBD0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D221E0E-AC2F-482F-A2B7-9F2980DBD0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D221E0E-AC2F-482F-A2B7-9F2980DBD0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D221E0E-AC2F-482F-A2B7-9F2980DBD0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261B3F1E-E75A-4F06-91DF-79BC8D197C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261B3F1E-E75A-4F06-91DF-79BC8D197C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261B3F1E-E75A-4F06-91DF-79BC8D197C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261B3F1E-E75A-4F06-91DF-79BC8D197C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C47BEF-540A-46D9-87A5-A76740E47EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C47BEF-540A-46D9-87A5-A76740E47EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C47BEF-540A-46D9-87A5-A76740E47EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C47BEF-540A-46D9-87A5-A76740E47EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BFE148-2E8F-4A2B-ACBE-C8760F10CEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BFE148-2E8F-4A2B-ACBE-C8760F10CEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BFE148-2E8F-4A2B-ACBE-C8760F10CEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BFE148-2E8F-4A2B-ACBE-C8760F10CEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39DE15D8-7A7B-43B8-A476-DB630019FFA4} = {146BD602-0E18-411B-88D7-3001CC9192DD}
+		{7D221E0E-AC2F-482F-A2B7-9F2980DBD0AC} = {D28D1580-F7F5-421D-99E6-FB528CD07840}
+		{261B3F1E-E75A-4F06-91DF-79BC8D197C45} = {D28D1580-F7F5-421D-99E6-FB528CD07840}
+		{36C47BEF-540A-46D9-87A5-A76740E47EB2} = {9AD13F3E-020D-4A5E-A809-6094F0804631}
+		{67BFE148-2E8F-4A2B-ACBE-C8760F10CEBD} = {DFF95565-A9FF-49A6-85EF-51F24277AF93}
+	EndGlobalSection
+EndGlobal

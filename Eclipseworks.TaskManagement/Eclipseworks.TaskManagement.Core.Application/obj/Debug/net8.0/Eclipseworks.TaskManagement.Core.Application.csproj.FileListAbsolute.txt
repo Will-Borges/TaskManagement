@@ -1,0 +1,17 @@
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.deps.json
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Core.Domains.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\bin\Debug\net8.0\Eclipseworks.TaskManagement.Infraestruture.Persistence.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.csproj.AssemblyReference.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.AssemblyInfoInputs.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.AssemblyInfo.cs
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.csproj.CoreCompileInputs.cache
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipsew.D4414299.Up2Date
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\refint\Eclipseworks.TaskManagement.Core.Application.dll
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\Eclipseworks.TaskManagement.Core.Application.pdb
+C:\Eclipseworks\Eclipseworks.TaskManagement\Eclipseworks.TaskManagement.Core.Application\obj\Debug\net8.0\ref\Eclipseworks.TaskManagement.Core.Application.dll
