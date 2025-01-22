@@ -2,23 +2,23 @@
 - Este projeto é uma API RESTful para gerenciamento de tarefas, projetos e usuários, com foco na organização e produtividade das equipes.
 
 ## Visão Geral
-O sistema visa facilitar a organização e o monitoramento das tarefas diárias de uma equipe. Ele permite criar projetos, adicionar e gerenciar tarefas, além de controlar o progresso dessas tarefas com funcionalidades de atualização e remoção.
+- O sistema visa facilitar a organização e o monitoramento das tarefas diárias de uma equipe. Ele permite criar projetos, adicionar e gerenciar tarefas, além de controlar o progresso dessas tarefas com funcionalidades de atualização e remoção.
 
 <br>
 
 ## Detalhes do Sistema
 
 ### Usuário
-O usuário é a pessoa que acessa e utiliza o sistema, possuindo uma conta com permissões para interagir com projetos e tarefas.
+- O usuário é a pessoa que acessa e utiliza o sistema, possuindo uma conta com permissões para interagir com projetos e tarefas.
 
 ### Projeto
-Um projeto é uma unidade que contém várias tarefas. Usuários podem criar, visualizar e gerenciar projetos.
+- Um projeto é uma unidade que contém várias tarefas. Usuários podem criar, visualizar e gerenciar projetos.
 
 ### Tarefa
-A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
+- A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
 
 ### Historico de Tarefa
-O histórico de tarefas é a unidade responsável por armazenar toda e qualquer alteração realizada pelo usuário nas tarefas.
+- O histórico de tarefas é a unidade responsável por armazenar toda e qualquer alteração realizada pelo usuário nas tarefas.
 
 <br>
 <br>
@@ -26,9 +26,9 @@ O histórico de tarefas é a unidade responsável por armazenar toda e qualquer 
 # Endpoints Entidade Projeto
 
 ### **CreateProject** 
-Método: POST  
-URL: /v1/Project/create-project  
-Descrição: Responsavel por criar o projeto.
+- Método: POST  
+- URL: /v1/Project/create-project  
+- Descrição: Responsavel por criar o projeto.
 ```json
 {
     "name": "Lima",
