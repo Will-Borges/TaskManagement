@@ -2,37 +2,38 @@
 Este projeto é uma API RESTful para gerenciamento de tarefas, projetos e usuários, com foco na organização e produtividade das equipes.
 
 <br>
-<br>
 
 ## Visão Geral
 O sistema visa facilitar a organização e o monitoramento das tarefas diárias de uma equipe. Ele permite criar projetos, adicionar e gerenciar tarefas, além de controlar o progresso dessas tarefas com funcionalidades de atualização e remoção.
 
 <br>
-<br>
+
 ## Detalhes do Sistema
 
 <br>
+
 ### Usuário
 O usuário é a pessoa que acessa e utiliza o sistema, possuindo uma conta com permissões para interagir com projetos e tarefas.
 
 <br>
-<br>
+
 ### Projeto
 Um projeto é uma unidade que contém várias tarefas. Usuários podem criar, visualizar e gerenciar projetos.
 
 <br>
-<br>
+
 ### Tarefa
 A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
 
 <br>
-<br>
+
 ### Historico de Tarefa
 O histórico de tarefas é a unidade responsável por armazenar toda e qualquer alteração realizada pelo usuário nas tarefas.
 
 <br>
 <br>
 <br>
+
 # Endpoints Entidade Projeto
 
 <br>
