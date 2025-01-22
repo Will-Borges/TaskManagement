@@ -269,7 +269,7 @@ ____
 - Precisamos de algum tipo de log para registro/controle da API?
 - Qual o prazo para entregar e qual são os endpoints que não podem faltar nesse prazo (senso de urgência)?
 - Qual a expectativa sobre os limites de uso da API? Devemos priorizar performance em algum dos endpoints especifico?
-- Qual a ideia geral do projeto? devemos realizar micro-serviços? Qual a intenção de crescimento desse projeto (qual o rumo tomaremos)?
+- Qual a ideia geral do projeto? devemos realizar micro-serviços? Qual a intenção de crescimento desse projeto (qual rumo tomaremos)?
 - Quantas pessoas estão nessa equipe?
 - Existe alguma arquitetura/modelo padrão para seguir?
 - Quais pessoas consigo retirar duvidas tecnicas caso necessario?
