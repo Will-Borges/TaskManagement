@@ -167,5 +167,57 @@ Descrição: Responsavel por listar todas as tarefas filtrando pelo project id.
     }
 ]
 ```
-
 ___
+
+### **DeleteTask** 
+Método: DELETE  
+URL: /remove-task?taskId=8
+Descrição: Responsavel por deletar a tarefa filtrando pelo id.
+
+## Response
+```json
+{
+    "succesfullyRemove": true
+}
+```
+
+# Endpoints Entidade TaskHistory
+
+### **SearchAllTaskHistories** 
+Método: GET  
+URL: /seach-all-tasks-histories
+Descrição: Responsavel por listar todo o histórico das alterações das tarefas.
+
+## Response
+```json
+{
+[
+    {
+        "id": 9,
+        "taskId": 3,
+        "fieldName": "Description",
+        "oldValue": "Descricao tarefa 222",
+        "newValue": "Descricao tarefa 888",
+        "changedAt": "2025-01-22T18:27:48.44536",
+        "changedBy": "1"
+    },
+    {
+        "id": 10,
+        "taskId": 3,
+        "fieldName": "Title",
+        "oldValue": "Tarefa atualizada6",
+        "newValue": "Tarefa da casa",
+        "changedAt": "2025-01-22T18:44:17.962548",
+        "changedBy": "1"
+    },
+    {
+        "id": 11,
+        "taskId": 3,
+        "fieldName": "Description",
+        "oldValue": "Descricao tarefa 888",
+        "newValue": "Tarefa atualizada por jovana",
+        "changedAt": "2025-01-22T18:44:17.963062",
+        "changedBy": "1"
+    }
+]
+```
