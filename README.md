@@ -16,11 +16,9 @@ Um projeto é uma unidade que contém várias tarefas. Usuários podem criar, vi
 ### Tarefa
 A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
 
-# Endpoints
+# Endpoints Projeto
 
-## Projeto
-
-**create-project**
+**createProject** 
 **Método**: POST  
 **URL**: /v1/Project/create-project  
 **Descrição**: Responsavel por criar o projeto.
@@ -31,5 +29,11 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
     "userId": 1
 }
 ```
+
+**ListProjectsByUserId** 
+**Método**: POST  
+**URL**: /v1/Project/list-projects-userId?userId=1
+**Descrição**: Responsavel por litar os projetos filtrando pelo id do usuário.
+
 
 
