@@ -247,7 +247,7 @@ ___
 
 <br>
 
-## Como Usar
+# Como Usar
 
 1. Suba os containers no docker
    - **1.1** Na raiz do projeto onde está localizado o arquivo ***Dockerfile***, abra o ***CMD*** e execute o comando ***docker compose build***
