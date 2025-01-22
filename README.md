@@ -286,6 +286,7 @@ ____
 - Analisaria com mais calma a arquitetura para concentrar mais as funções nos domains.
 - ***OBS:*** O relatório de desempenho não foi implementado dentro do prazo, não por falta de conhecimento, mas devido a limitações de tempo. Embora eu tenha conhecimento da abordagem correta, em alguns pontos, como a conversão direta do comando para a entidade (que sei não ser a melhor prática), não consegui dedicar o tempo necessário para aprimorar esses detalhes, optando por soluções mais rápidas para cumprir o prazo. No entanto, acredito que é possível perceber meu conhecimento técnico no restante da implementação, e estou totalmente disponível para debater cada abordagem que adotei e os motivos que levaram às minhas escolhas.
 
+<br>
 
 ## Contribuições
 
