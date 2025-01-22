@@ -11,28 +11,20 @@ O sistema visa facilitar a organização e o monitoramento das tarefas diárias 
 ### Usuário
 O usuário é a pessoa que acessa e utiliza o sistema, possuindo uma conta com permissões para interagir com projetos e tarefas.
 
-<br>
-
 ### Projeto
 Um projeto é uma unidade que contém várias tarefas. Usuários podem criar, visualizar e gerenciar projetos.
 
-<br>
-
 ### Tarefa
 A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição, data de vencimento e status (pendente, em andamento, concluída).
-
-<br>
 
 ### Historico de Tarefa
 O histórico de tarefas é a unidade responsável por armazenar toda e qualquer alteração realizada pelo usuário nas tarefas.
 
 <br>
 <br>
-<br>
 
 # Endpoints Entidade Projeto
 
-<br>
 ### **CreateProject** 
 Método: POST  
 URL: /v1/Project/create-project  
@@ -118,7 +110,7 @@ Descrição: Responsavel por deletar o projetos filtrando pelo id do projeto.
 ```
 <br>
 <br>
-<br>
+
 # Endpoints Entidade Task
 
 ### **CreateTask** 
@@ -146,6 +138,7 @@ Descrição: Responsavel por criar uma tarefa.
 ___
 
 <br>
+
 ### **UpdateTask** 
 Método: PUT  
 URL: /update-task
@@ -171,6 +164,7 @@ Descrição: Responsavel por atualizar uma tarefa, se baseando pelo id.
 
 ___
 <br>
+
 ### **ListTasksByProjectId** 
 Método: GET  
 URL: /seach-tasks-by-projectId?projectId=3
@@ -192,6 +186,7 @@ Descrição: Responsavel por listar todas as tarefas filtrando pelo project id.
 ___
 
 <br>
+
 ### **DeleteTask** 
 Método: DELETE  
 URL: /remove-task?taskId=8
@@ -206,7 +201,7 @@ Descrição: Responsavel por deletar a tarefa filtrando pelo id.
 
 <br>
 <br>
-<br>
+
 # Endpoints Entidade TaskHistory
 
 ### **SearchAllTaskHistories** 
