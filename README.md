@@ -18,7 +18,9 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 
 # Endpoints Projeto
 
-### **createProject** 
+### **CreateProject** 
+
+## Request
 **Método**: POST  
 **URL**: /v1/Project/create-project  
 **Descrição**: Responsavel por criar o projeto.
@@ -30,10 +32,83 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 }
 ```
 
+## Response
+**Descrição**: Retornara projectSuccesfullyCreated como 'true' indicando que a criou com sucesso, junto a isso retornara projectId e projectUserId criados.
+```json
+{
+    "projectId": 1,
+    "projectUserId": 1,
+    "projectSuccesfullyCreated": true
+}
+```
+
 ### **ListProjectsByUserId** 
-**Método**: POST  
+**Método**: GET  
 **URL**: /v1/Project/list-projects-userId?userId=1
-**Descrição**: Responsavel por litar os projetos filtrando pelo id do usuário.
+**Descrição**: Responsavel por listar os projetos filtrando pelo id do usuário.
+
+## Response
+**Descrição**: Retornara os projetos filtrados pelo id do usuário com todos os dados de tarefas e usuário que tambem estão vinculados ao projeto.
+```json
+{
+   [
+    {
+        "id": 3,
+        "name": "Lima",
+        "description": "Sistema robusto para gerenciar dados críticos, melhorar a eficiência e garantir segurança.",
+        "user": [
+            {
+                "name": "Leandro",
+                "position": "Gerente"
+            }
+        ],
+        "tasks": [
+            {
+                "id": 3,
+                "title": "Tarefa2",
+                "description": "Descricao tarefa2",
+                "dueDate": "2025-02-20T14:34:39.357",
+                "status": 1,
+                "priority": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Lima",
+        "description": "Sistema robusto para gerenciar dados críticos, melhorar a eficiência e garantir segurança.",
+        "user": [
+            {
+                "name": "Leandro",
+                "position": "Gerente"
+            }
+        ],
+        "tasks": []
+    }
+]
+}
+```
+
+### **DeleteProject** 
+**Método**: DELETE  
+**URL**: /v1/Project/remove-project?projectId=1
+**Descrição**: Responsavel por deletar o projetos filtrando pelo id do projeto.
 
 
+# Endpoints Task
+
+### **CreateProject** 
+**Método**: POST  
+**URL**: /v1/Project/create-project  
+**Descrição**: Responsavel por criar o projeto.
+```json
+{
+    "title": "Tarefa2",
+    "description": "Descricao tarefa2",
+    "dueDate": "2025-02-20T14:34:39.357Z",
+    "status": 1,
+    "priority": 1,
+    "projectId": 3
+}
+```
 
