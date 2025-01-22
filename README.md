@@ -19,9 +19,9 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 # Endpoints Projeto
 
 ### **CreateProject** 
-**Método**: POST  
-**URL**: /v1/Project/create-project  
-**Descrição**: Responsavel por criar o projeto.
+Método: POST  
+URL: /v1/Project/create-project  
+Descrição: Responsavel por criar o projeto.
 ```json
 {
     "name": "Lima",
@@ -41,9 +41,9 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 ___
 
 ### **ListProjectsByUserId** 
-**Método**: GET  
-**URL**: /v1/Project/list-projects-userId?userId=1
-**Descrição**: Responsavel por listar os projetos filtrando pelo id do usuário.
+Método: GET  
+URL: /v1/Project/list-projects-userId?userId=1
+Descrição: Responsavel por listar os projetos filtrando pelo id do usuário.
 
 ## Response
 ```json
@@ -88,9 +88,9 @@ ___
 ___
 
 ### **DeleteProject** 
-**Método**: DELETE  
-**URL**: /v1/Project/remove-project?projectId=1
-**Descrição**: Responsavel por deletar o projetos filtrando pelo id do projeto.
+Método: DELETE  
+URL: /v1/Project/remove-project?projectId=1
+Descrição: Responsavel por deletar o projetos filtrando pelo id do projeto.
 
 ## Response
 ```json
@@ -102,9 +102,9 @@ ___
 # Endpoints Task
 
 ### **CreateTask** 
-**Método**: POST  
-**URL**: /create-task
-**Descrição**: Responsavel por criar uma tarefa.
+Método: POST  
+URL: /create-task
+Descrição: Responsavel por criar uma tarefa.
 ```json
 {
     "title": "Tarefa1",
@@ -126,9 +126,9 @@ ___
 ___
 
 ### **UpdateTask** 
-**Método**: PUT  
-**URL**: /update-task
-**Descrição**: Responsavel por atualizar uma tarefa, se baseando pelo id.
+Método: PUT  
+URL: /update-task
+Descrição: Responsavel por atualizar uma tarefa, se baseando pelo id.
 ```json
 {
     "id": 1,
@@ -150,9 +150,9 @@ ___
 ___
 
 ### **ListTasksByProjectId** 
-**Método**: GET  
-**URL**: /seach-tasks-by-projectId?projectId=3
-**Descrição**: Responsavel por listar todas as tarefas filtrando pelo project id.
+Método: GET  
+URL: /seach-tasks-by-projectId?projectId=3
+Descrição: Responsavel por listar todas as tarefas filtrando pelo project id.
 
 ## Response
 ```json
