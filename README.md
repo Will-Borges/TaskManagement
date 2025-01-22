@@ -245,6 +245,8 @@ ___
 ]
 ```
 
+<br>
+
 ## Como Usar
 
 1. Crie um user - Enpoint CreateUser
