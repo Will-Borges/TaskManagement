@@ -3,6 +3,7 @@ Este projeto é uma API RESTful para gerenciamento de tarefas, projetos e usuár
 
 <br>
 <br>
+
 ## Visão Geral
 O sistema visa facilitar a organização e o monitoramento das tarefas diárias de uma equipe. Ele permite criar projetos, adicionar e gerenciar tarefas, além de controlar o progresso dessas tarefas com funcionalidades de atualização e remoção.
 
