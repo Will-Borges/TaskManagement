@@ -85,27 +85,87 @@ ___
 ]
 }
 ```
+___
 
 ### **DeleteProject** 
 **Método**: DELETE  
 **URL**: /v1/Project/remove-project?projectId=1
 **Descrição**: Responsavel por deletar o projetos filtrando pelo id do projeto.
 
-
-# Endpoints Task
-
-### **CreateProject** 
-**Método**: POST  
-**URL**: /v1/Project/create-project  
-**Descrição**: Responsavel por criar o projeto.
+## Response
 ```json
 {
-    "title": "Tarefa2",
-    "description": "Descricao tarefa2",
-    "dueDate": "2025-02-20T14:34:39.357Z",
-    "status": 1,
-    "priority": 1,
-    "projectId": 3
+    "succesfullyDelete": true
 }
 ```
 
+# Endpoints Task
+
+### **CreateTask** 
+**Método**: POST  
+**URL**: /create-task
+**Descrição**: Responsavel por criar uma tarefa.
+```json
+{
+    "title": "Tarefa1",
+    "description": "Descricao da tarefa",
+    "dueDate": "2025-02-20T14:34:39.357Z",
+    "status": 1,
+    "priority": 1,
+    "projectId": 1
+}
+```
+
+## Response
+```json
+{
+    "id": 1,
+    "projectSuccesfullyCreated": true
+}
+```
+___
+
+### **UpdateTask** 
+**Método**: PUT  
+**URL**: /update-task
+**Descrição**: Responsavel por atualizar uma tarefa, se baseando pelo id.
+```json
+{
+    "id": 1,
+    "title": "Tarefa da casa",
+    "description": "Tarefa atualizada por jovana",
+    "dueDate": "0001-01-01T00:00:00",
+    "status": 3,
+    "projectId": 2
+}
+```
+
+## Response
+```json
+{
+    "succesfullyCreated": true
+}
+```
+
+___
+
+### **ListTasksByProjectId** 
+**Método**: GET  
+**URL**: /seach-tasks-by-projectId?projectId=3
+**Descrição**: Responsavel por listar todas as tarefas filtrando pelo project id.
+
+## Response
+```json
+[
+    {
+        "id": 3,
+        "title": "Tarefa2",
+        "description": "Descricao tarefa2",
+        "dueDate": "2025-02-20T14:34:39.357",
+        "status": 1,
+        "priority": 1
+    }
+]
+```
+
+___
