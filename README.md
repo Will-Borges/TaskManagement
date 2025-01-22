@@ -250,13 +250,13 @@ ___
 ## Como Usar
 
 1. Suba os containers no docker
-    1.1 Na raiz do projeto onde esta localizado o arquivo ***Dockerfile*** abra o ***CMD*** e execute o comando ***docker compose build***
+    1.1 Na raiz do projeto onde está localizado o arquivo ***Dockerfile***, abra o ***CMD*** e execute o comando ***docker compose build***
     1.2 Execute o comando ***docker compose up***
 
 2. Execute os scripts das tabelas no container do docker via terminal
-   2.1 Na raiz do projeto onde esta localizado o arquivo ***Dockerfile*** abra o ***CMD*** e execute o comando ***docker exec -it eclipseworkstaskmanagement-postgres-1 psql -U postgres -d eclipseworks*** 
-   2.2 Execute os scripts encontrados na pasta ***Scripts*** localizada na raiz (copiando e colando)  
-   
+    2.1 Na raiz do projeto onde está localizado o arquivo ***Dockerfile***, abra o ***CMD*** e execute o comando ***docker exec -it eclipseworkstaskmanagement-postgres-1 psql -U postgres -d eclipseworks*** 
+    2.2 Execute os scripts encontrados na pasta ***Scripts*** localizada na raiz (copiando e colando)  
+
 3. Crie um projeto para gerenciar suas tarefas, vinculando o criador no userId - Endpoint CreateProject
 4. Adicione as tarefas vinculando o id retornado na criação do projeto - Endpoint CreateTask
 5. Após esses passos conseguimos utilizar todos os endpoints restantes no projeto para organizar nossas tarefas da equipe.
