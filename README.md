@@ -261,7 +261,7 @@ ___
 4. Adicione as tarefas vinculando o id retornado na criação do projeto - Endpoint CreateTask
 5. Após esses passos conseguimos utilizar todos os endpoints restantes no projeto para organizar nossas tarefas da equipe.
 
-   ____
+____
    
 # Fase 2: Refinamento - Perguntas ao PO
 - Quando criar um projeto, é obrigatorio vincular os usuarios em uma unica requisição?
@@ -273,8 +273,18 @@ ___
 - Quantas pessoas estão nessa equipe?
 - Existe alguma arquitetura/modelo padrão para seguir?
 - Quais pessoas consigo retirar duvidas tecnicas caso necessario?
-   ____
-
+____
+   
+# Fase 3: Final - Melhorias
+- Adicionaria constantes para cargos dos funcionarios.
+- Adicionaria um 'delete lógico' por 0 e 1, para preservar os dados.
+- Adicionaria mais validações dos dados de entrada, dependendo de como o PO me respondesse sobre o tamanho da API e como iriamos seguir (entendo mais sobre a regra de negócio), poderia adicionar uma camada extra na arquitetura chamada ***Presenter***, para fazer essas validações.
+- Adicionaria mais validações nas execuções de banco, para evitar erros bobos como retornar um null e querer seguir a aplicaçao/fluxo do sistema.
+- Adicionaria migrations para que o banco seja mais facil de operar.
+- Adicionaria dependendo de como o PO respondesse o Entity Framework.
+- Refinaria o histórico, para conseguir registrar tambem a remoção das tarefas e um registro geral na entidade projeto.
+- Analisaria com mais calma a arquitetura para concentrar mais as funções nos domains.
+- ***OBS:*** O relatório de desempenho não foi implementado dentro do prazo, não por falta de conhecimento, mas devido a limitações de tempo. Embora eu tenha conhecimento da abordagem correta, em alguns pontos, como a conversão direta do comando para a entidade (que sei não ser a melhor prática), não consegui dedicar o tempo necessário para aprimorar esses detalhes, optando por soluções mais rápidas para cumprir o prazo. No entanto, acredito que é possível perceber meu conhecimento técnico no restante da implementação, e estou totalmente disponível para debater cada abordagem que adotei e os motivos que levaram às minhas escolhas.
 
 
 ## Contribuições
