@@ -10,8 +10,6 @@ O sistema visa facilitar a organização e o monitoramento das tarefas diárias 
 
 ## Detalhes do Sistema
 
-<br>
-
 ### Usuário
 O usuário é a pessoa que acessa e utiliza o sistema, possuindo uma conta com permissões para interagir com projetos e tarefas.
 
