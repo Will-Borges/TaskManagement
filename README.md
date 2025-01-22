@@ -51,9 +51,9 @@ ___
 <br>
 
 ### **ListProjectsByUserId** 
-Método: GET  
-URL: /v1/Project/list-projects-userId?userId=1
-Descrição: Responsavel por listar os projetos filtrando pelo id do usuário.
+- Método: GET  
+- URL: /v1/Project/list-projects-userId?userId=1
+- Descrição: Responsavel por listar os projetos filtrando pelo id do usuário.
 
 ## Response
 ```json
@@ -100,9 +100,9 @@ ___
 <br>
 
 ### **DeleteProject** 
-Método: DELETE  
-URL: /v1/Project/remove-project?projectId=1
-Descrição: Responsavel por deletar o projetos filtrando pelo id do projeto.
+- Método: DELETE  
+- URL: /v1/Project/remove-project?projectId=1
+- Descrição: Responsavel por deletar o projetos filtrando pelo id do projeto.
 
 ## Response
 ```json
@@ -116,9 +116,9 @@ Descrição: Responsavel por deletar o projetos filtrando pelo id do projeto.
 # Endpoints Entidade Task
 
 ### **CreateTask** 
-Método: POST  
-URL: /create-task
-Descrição: Responsavel por criar uma tarefa.
+- Método: POST  
+- URL: /create-task
+- Descrição: Responsavel por criar uma tarefa.
 ```json
 {
     "title": "Tarefa1",
@@ -142,9 +142,9 @@ ___
 <br>
 
 ### **UpdateTask** 
-Método: PUT  
-URL: /update-task
-Descrição: Responsavel por atualizar uma tarefa, se baseando pelo id.
+- Método: PUT  
+- URL: /update-task
+- Descrição: Responsavel por atualizar uma tarefa, se baseando pelo id.
 
 ```json
 {
@@ -168,9 +168,9 @@ ___
 <br>
 
 ### **ListTasksByProjectId** 
-Método: GET  
-URL: /seach-tasks-by-projectId?projectId=3
-Descrição: Responsavel por listar todas as tarefas filtrando pelo project id.
+- Método: GET  
+- URL: /seach-tasks-by-projectId?projectId=3
+- Descrição: Responsavel por listar todas as tarefas filtrando pelo project id.
 
 ## Response
 ```json
@@ -190,9 +190,9 @@ ___
 <br>
 
 ### **DeleteTask** 
-Método: DELETE  
-URL: /remove-task?taskId=8
-Descrição: Responsavel por deletar a tarefa filtrando pelo id.
+- Método: DELETE  
+- URL: /remove-task?taskId=8
+- Descrição: Responsavel por deletar a tarefa filtrando pelo id.
 
 ## Response
 ```json
@@ -207,9 +207,9 @@ Descrição: Responsavel por deletar a tarefa filtrando pelo id.
 # Endpoints Entidade TaskHistory
 
 ### **SearchAllTaskHistories** 
-Método: GET  
-URL: /seach-all-tasks-histories
-Descrição: Responsavel por listar todo o histórico das alterações das tarefas.
+- Método: GET  
+- URL: /seach-all-tasks-histories
+- Descrição: Responsavel por listar todo o histórico das alterações das tarefas.
 
 ## Response
 ```json
@@ -244,3 +244,18 @@ Descrição: Responsavel por listar todo o histórico das alterações das taref
     }
 ]
 ```
+
+## Como Usar
+
+1. Crie um user - Enpoint CreateUser
+2. Faça a autenticação - Enpoint Authenticate
+3. Utilize o token para realizar o acesso as funcionalidades
+4. Crie um produto que sera adicionado no stock - Endpoint CreateCarProduct
+5. Busque o estoque para pegar o Id do item - Endpoint GetStock
+6. Atualize o item do estoque, adicionando a quantidade que tem no estoque, passando o Id do item (5) - Endpoint UpdateItemStock
+7. Crie um pedido, passando o Id do item que deseja comprar e a quantidade - Endpoint CreateOrder
+8. Confirme o pedido, passando o Id do pedido que veio ao criar ele (7) - Endpoint ConfirmOrder
+
+## Contribuições
+
+William Borges
