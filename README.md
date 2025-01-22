@@ -18,9 +18,8 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 
 # Endpoints Projeto
 
-### **CreateProject** 
-
 ## Request
+### **CreateProject** 
 **Método**: POST  
 **URL**: /v1/Project/create-project  
 **Descrição**: Responsavel por criar o projeto.
@@ -33,7 +32,6 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 ```
 
 ## Response
-**Descrição**: Retornara projectSuccesfullyCreated como 'true' indicando que a criou com sucesso, junto a isso retornara projectId e projectUserId criados.
 ```json
 {
     "projectId": 1,
@@ -41,6 +39,7 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
     "projectSuccesfullyCreated": true
 }
 ```
+___
 
 ### **ListProjectsByUserId** 
 **Método**: GET  
@@ -48,7 +47,6 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 **Descrição**: Responsavel por listar os projetos filtrando pelo id do usuário.
 
 ## Response
-**Descrição**: Retornara os projetos filtrados pelo id do usuário com todos os dados de tarefas e usuário que tambem estão vinculados ao projeto.
 ```json
 {
    [
