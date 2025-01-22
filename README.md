@@ -18,7 +18,6 @@ A tarefa é a unidade de trabalho dentro de um projeto, com título, descrição
 
 # Endpoints Projeto
 
-## Request
 ### **CreateProject** 
 **Método**: POST  
 **URL**: /v1/Project/create-project  
