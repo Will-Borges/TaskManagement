@@ -254,12 +254,16 @@ ___
    - **1.2** Execute o comando ***docker compose up***
 
 2. Execute os scripts das tabelas no container do docker via terminal
-   - **2.1** Na raiz do projeto onde está localizado o arquivo ***Dockerfile***, abra o ***CMD*** e execute o comando ***docker exec -it eclipseworkstaskmanagement-postgres-1 psql -U postgres -d eclipseworks*** 
-   - **2.2** Execute os scripts encontrados na pasta ***Scripts*** localizada na raiz (copiando e colando)  
+   - **2.1** Na raiz do projeto onde está localizado o arquivo ***Dockerfile***, abra o ***CMD*** e execute o comando ***docker exec -it eclipseworkstaskmanagement-postgres-1 psql -U postgres***
+   - ***2.2*** Crie o database com o comando ***create database eclipseworks;***
+   - Saia dos comandos SQLs executando o comando ***\q***
 
-3. Crie um projeto para gerenciar suas tarefas, vinculando o criador no userId - Endpoint CreateProject
-4. Adicione as tarefas vinculando o id retornado na criação do projeto - Endpoint CreateTask
-5. Após esses passos conseguimos utilizar todos os endpoints restantes no projeto para organizar nossas tarefas da equipe.
+   - **2.2** Abra o SQL no database executando o comando ***docker exec -it eclipseworkstaskmanagement-postgres-1 psql -U postgres -d eclipseworks*** 
+   - **2.3** Execute os scripts encontrados na pasta ***Scripts*** localizada na raiz (copiando e colando)  
+
+4. Crie um projeto para gerenciar suas tarefas, vinculando o criador no userId - Endpoint CreateProject
+5. Adicione as tarefas vinculando o id retornado na criação do projeto - Endpoint CreateTask
+6. Após esses passos conseguimos utilizar todos os endpoints restantes no projeto para organizar nossas tarefas da equipe.
 
 ____
    
